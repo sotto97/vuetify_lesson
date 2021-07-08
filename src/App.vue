@@ -57,6 +57,9 @@
       </v-toolbar-items>
       <!-- <v-btn outlined>Button</v-btn> -->
     </v-app-bar>
+    <v-main>
+      <router-view />
+    </v-main>
     <v-footer color="primary" dark app>
       Vuetify
     </v-footer>
